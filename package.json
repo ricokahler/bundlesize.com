@@ -1,25 +1,15 @@
 {
   "name": "bundlesize.com",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "node ./scripts/register -- ./scripts/run"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@babel/core": "^7.10.5",
-    "@babel/preset-env": "^7.10.4",
-    "@babel/preset-react": "^7.10.4",
-    "@babel/preset-typescript": "^7.10.4",
-    "@babel/register": "^7.10.5",
-    "@types/babel__core": "^7.1.9",
-    "@types/node": "^14.0.23",
-    "dotenv": "^8.2.0",
-    "terser": "^4.8.0",
-    "typescript": "^3.9.7",
-    "zlib-browserify": "0.0.3"
+    "next": "10.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
   }
 }
